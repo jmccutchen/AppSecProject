@@ -5,5 +5,5 @@ from . import views
 app_name = 'ReleaseManage'
 
 urlpatterns = [
-    path('', views.release, name='release-home')
+    path('', views.release, name='release')
 ]
