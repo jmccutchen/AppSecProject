@@ -6,9 +6,10 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-				<div class="navbar-nav">	
-					<a class="nav-item nav-link" href="release/">Release Info </a>
-					<a class="nav-item nav-link" href="metrics/">Metrics</a>
+				<div class="navbar-nav">
+					<a class="nav-item nav-link" href="{% url 'Metrics:metrics' %}">Metrics</a>	
+					<a class="nav-item nav-link" href="{% url 'ReleaseManage:release' %}">Release Info </a>
+					
 				</div>
 			</div>	
 		</div>
