@@ -1,10 +1,18 @@
 {% extends 'base.html' %} {% block content %}
 
+{% if user.is_authenticated %}
+
 <div class="card text-center">
   <div class="card-body">
     <h1>Release Management</h1>
     <p>Lots of stuff coming below</p>
   </div>
 </div>
+
+{% else %}
+
+<h1 class="mt-5 mx-auto">Error: Please request access/register or login </h1>
+
+{% endif %}
 
 {% endblock %}
