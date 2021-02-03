@@ -12,8 +12,9 @@
 
 					<a class="nav-item nav-link" href="{% url 'Metrics:metrics' %}">Metrics</a>	
 					<a class="nav-item nav-link" href="{% url 'ReleaseManage:release' %}">Release Info </a>
+					<a class="nav-item nav-link" href="{% url 'Login:edit_profile' %}">Edit Profile</a>
 					<a class="nav-item nav-link" href="{% url 'logout' %}">Logout </a>
-				
+								
 				{% else %}
 
 					<a class="nav-item nav-link" href="{% url 'Login:register' %}">Register </a>
